@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-const contactsRouter = require('./routes/Contacts');
+const contactsRouter = require('./routes/contacts');
 app.use('/contacts', contactsRouter);
 
 app.get('/', (req, res) => {
