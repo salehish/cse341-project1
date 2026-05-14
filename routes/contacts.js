@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Contact = require('../models/Contacts'); // make sure this exists
+const Contact = require('../models/contacts'); // make sure this exists
 
 router.get('/', async (req, res) => {
   try {
